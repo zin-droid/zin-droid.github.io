@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+body {
+	background-color: #9e8d86;
+	<src: url(../fonts/SawarabiGothic-Regular.ttf);>
+}
+
+@font-face {
+	font-family: Sawarabi Gothic;
+	src: url(../fonts/SawarabiGothic-Regular.ttf);
+}
+
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-image: url(../img/12.jpg);
+	box-shadow: 0px 9px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	font-family: Sawarabi Gothic;
+	font-size: 381%;
+	padding-left: 14.73%;
+	letter-spacing: 2px;
+}
+
+header {
+	background-color: #7d716c;
+	padding: 18px 0;
+	margin: 0;
+}
+
+img	{
+	width: 200px;
+	height: 100px;
+}
+
+
+.photo {
+	max-width: 520px;
+	width: calc(25vw - 10px);
+	height: calc((35vw - 40px)/ 16 * 9);
+	margin: 20px;
+	box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.2);
+	background-position: center;
+	background-size: cover;
+	opacity: 0.7;
+	border-radius: 10px;
+}
+
+.photo:hover {
+	opacity: 1.0;
+	border-radius: 0;
+	transition: 0.87s, transform 1.5s, border-radius 2.6s;
+	transform: scale(1.07);
+	z-index: 10;
+
+}
+
+.photo1 {
+	background-image: url(../img/img1.jpg);
+}
+
+.photo2 {
+	background-image: url(../img/img2.jpg);
+}
+
+.photo3 {
+	background-image: url(../img/img3.jpg);
+}
+
+.photo4 {
+	background-image: url(../img/img4.jpg);
+}
+
+.photo5 {
+	background-image: url(../img/img5.jpg);
+}
+
+.photo6 {
+	background-image: url(../img/img6.jpg);
+}
+
+.photo7 {
+	background-image: url(../img/img7.jpg);
+}
+
+.photo8 {
+	background-image: url(../img/img8.jpg);
+}
+
+.photo9 {
+	background-image: url(../img/img9.jpg);
+}
+
+.photo10 {
+	background-image: url(../img/img10.jpg);
+}
+
+.photo11 {
+	background-image: url(../img/img11.jpg);
+}
+
+.photo12 {
+	background-image: url(../img/img12.jpg);
+}
+
+
+
+
